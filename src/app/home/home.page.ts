@@ -12,7 +12,7 @@ import { ProfilePage } from '../profile/profile.page';
 import { LookingforPage } from '../lookingfor/lookingfor.page'
 import { BirthdaytoAgePipe } from '../pipes/birthdayto-age/birthdayto-age'
 import { ChatPage } from '../chat/chat.page'
-// import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 // import { Network } from '@ionic-native/network';
 // import { File } from '@ionic-native/file/';
 // import { FileTransfer, FileTransferObject } from '@ionic-native/file-transfer/';
