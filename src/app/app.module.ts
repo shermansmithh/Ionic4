@@ -17,6 +17,8 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 // import {FCM} from '@ionic-native/fcm/ngx'
 import { Device } from '@ionic-native/device/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { Network } from '@ionic-native/network/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -29,6 +31,7 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
     SplashScreen,
     Facebook,
     Geolocation,
+    Network,
     // FCM,
     Device,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
