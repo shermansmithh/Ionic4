@@ -13,10 +13,10 @@ import { LookingforPage } from '../lookingfor/lookingfor.page'
 import { BirthdaytoAgePipe } from '../pipes/birthdayto-age/birthdayto-age'
 import { ChatPage } from '../chat/chat.page'
 import { Geolocation } from '@ionic-native/geolocation/ngx';
-// import { Network } from '@ionic-native/network';
-// import { File } from '@ionic-native/file/';
+import { Network } from '@ionic-native/network';
+import { File } from '@ionic-native/file/ngx';
 // import { FileTransfer, FileTransferObject } from '@ionic-native/file-transfer/';
-// import { Firebase } from '@ionic-native/firebase';
+
 
 @Component({
   selector: 'app-home',

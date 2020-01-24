@@ -18,6 +18,7 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { Device } from '@ionic-native/device/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import { Network } from '@ionic-native/network/ngx';
+import { File } from '@ionic-native/file/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -32,6 +33,7 @@ import { Network } from '@ionic-native/network/ngx';
     Facebook,
     Geolocation,
     Network,
+    File,
     // FCM,
     Device,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
