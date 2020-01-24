@@ -19,6 +19,7 @@ import { Device } from '@ionic-native/device/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import { Network } from '@ionic-native/network/ngx';
 import { File } from '@ionic-native/file/ngx';
+import { FileTransfer} from '@ionic-native/file-transfer/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -34,6 +35,7 @@ import { File } from '@ionic-native/file/ngx';
     Geolocation,
     Network,
     File,
+    FileTransfer,
     // FCM,
     Device,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }

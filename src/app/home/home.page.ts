@@ -15,7 +15,7 @@ import { ChatPage } from '../chat/chat.page'
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import { Network } from '@ionic-native/network';
 import { File } from '@ionic-native/file/ngx';
-// import { FileTransfer, FileTransferObject } from '@ionic-native/file-transfer/';
+import { FileTransfer, FileTransferObject } from '@ionic-native/file-transfer/ngx';
 
 
 @Component({
