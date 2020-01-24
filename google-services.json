@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "992899548568",
+    "firebase_url": "https://buzzer-71b73.firebaseio.com",
+    "project_id": "buzzer-71b73",
+    "storage_bucket": "buzzer-71b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992899548568:android:9259f9a03f217fa0",
+        "android_client_info": {
+          "package_name": "buzzer.io"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992899548568-migm9epj5s00n5peu0uneb5m0nhr1smg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCug0rJ-Jj-h9rDANB5Mp8oEWzSWputnbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
